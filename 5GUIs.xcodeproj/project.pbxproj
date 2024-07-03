@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1A06FB2C3566F4009A4C2D /* BundleFeatureDetectionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A06FA2C3566F4009A4C2D /* BundleFeatureDetectionOperation.swift */; };
+		6B1A07032C356845009A4C2D /* test_nateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A07022C356845009A4C2D /* test_nateApp.swift */; };
+		6B1A07052C356845009A4C2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A07042C356845009A4C2D /* ContentView.swift */; };
+		6B1A07072C356846009A4C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A07062C356846009A4C2D /* Assets.xcassets */; };
+		6B1A070A2C356846009A4C2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A07092C356846009A4C2D /* Preview Assets.xcassets */; };
 		E83E32BF25220277009BE980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83E32BE25220277009BE980 /* Assets.xcassets */; };
 		E83E32C225220277009BE980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83E32C125220277009BE980 /* Preview Assets.xcassets */; };
 		E83E32C525220277009BE980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83E32C325220277009BE980 /* Main.storyboard */; };
@@ -28,7 +33,6 @@
 		E8F1C42825260051000B517B /* DetailsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1C40F25260051000B517B /* DetailsPopover.swift */; };
 		E8F1C42925260051000B517B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1C41025260051000B517B /* ContentView.swift */; };
 		E8F1C42A25260051000B517B /* MainFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1C41125260051000B517B /* MainFileView.swift */; };
-		E8F1C42B25260051000B517B /* BundleFeatureDetectionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1C41325260051000B517B /* BundleFeatureDetectionOperation.swift */; };
 		E8F1C42C25260051000B517B /* InfoDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1C41425260051000B517B /* InfoDict.swift */; };
 		E8F1C42D25260051000B517B /* FakeDetectionStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1C41525260051000B517B /* FakeDetectionStepper.swift */; };
 		E8F1C42E25260051000B517B /* FakeStepConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1C41625260051000B517B /* FakeStepConfigs.swift */; };
@@ -40,6 +44,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1A06FA2C3566F4009A4C2D /* BundleFeatureDetectionOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFeatureDetectionOperation.swift; sourceTree = "<group>"; };
+		6B1A07002C356845009A4C2D /* test-nate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-nate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1A07022C356845009A4C2D /* test_nateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_nateApp.swift; sourceTree = "<group>"; };
+		6B1A07042C356845009A4C2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B1A07062C356846009A4C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B1A07092C356846009A4C2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B1A070B2C356846009A4C2D /* test_nate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test_nate.entitlements; sourceTree = "<group>"; };
 		E83E32B725220275009BE980 /* 5 GUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 GUIs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83E32BE25220277009BE980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E83E32C125220277009BE980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -66,7 +77,6 @@
 		E8F1C40F25260051000B517B /* DetailsPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPopover.swift; sourceTree = "<group>"; };
 		E8F1C41025260051000B517B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8F1C41125260051000B517B /* MainFileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFileView.swift; sourceTree = "<group>"; };
-		E8F1C41325260051000B517B /* BundleFeatureDetectionOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BundleFeatureDetectionOperation.swift; path = ../Sources/5GUIs/BundleFeatureDetectionOperation.swift; sourceTree = "<group>"; };
 		E8F1C41425260051000B517B /* InfoDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDict.swift; sourceTree = "<group>"; };
 		E8F1C41525260051000B517B /* FakeDetectionStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeDetectionStepper.swift; sourceTree = "<group>"; };
 		E8F1C41625260051000B517B /* FakeStepConfigs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeStepConfigs.swift; sourceTree = "<group>"; };
@@ -80,6 +90,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6B1A06FD2C356845009A4C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E83E32B425220275009BE980 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,11 +107,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1A07012C356845009A4C2D /* test-nate */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A07022C356845009A4C2D /* test_nateApp.swift */,
+				6B1A07042C356845009A4C2D /* ContentView.swift */,
+				6B1A07062C356846009A4C2D /* Assets.xcassets */,
+				6B1A070B2C356846009A4C2D /* test_nate.entitlements */,
+				6B1A07082C356846009A4C2D /* Preview Content */,
+			);
+			path = "test-nate";
+			sourceTree = "<group>";
+		};
+		6B1A07082C356846009A4C2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A07092C356846009A4C2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		E83E32AE25220275009BE980 = {
 			isa = PBXGroup;
 			children = (
 				E8F1C437252600A9000B517B /* README.md */,
 				E83E32B925220275009BE980 /* 5GUIs */,
+				6B1A07012C356845009A4C2D /* test-nate */,
 				E83E32B825220275009BE980 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				E83E32B725220275009BE980 /* 5 GUIs.app */,
+				6B1A07002C356845009A4C2D /* test-nate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +154,6 @@
 				E8F1C41B25260051000B517B /* Style.swift */,
 				E8F1C41A25260051000B517B /* WindowState.swift */,
 				E8F1C41925260051000B517B /* Windows.swift */,
-				E8F1C41325260051000B517B /* BundleFeatureDetectionOperation.swift */,
 				E8F1C41225260051000B517B /* Model */,
 				E8F1C40725260051000B517B /* Views */,
 				E8F1C40125260051000B517B /* Utilities */,
@@ -125,6 +163,7 @@
 				E83E32C625220277009BE980 /* Info.plist */,
 				E83E32C725220277009BE980 /* _GUIs.entitlements */,
 				E83E32C025220277009BE980 /* Preview Content */,
+				6B1A06FA2C3566F4009A4C2D /* BundleFeatureDetectionOperation.swift */,
 			);
 			path = 5GUIs;
 			sourceTree = "<group>";
@@ -236,6 +275,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6B1A06FF2C356845009A4C2D /* test-nate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1A070C2C356846009A4C2D /* Build configuration list for PBXNativeTarget "test-nate" */;
+			buildPhases = (
+				6B1A06FC2C356845009A4C2D /* Sources */,
+				6B1A06FD2C356845009A4C2D /* Frameworks */,
+				6B1A06FE2C356845009A4C2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-nate";
+			productName = "test-nate";
+			productReference = 6B1A07002C356845009A4C2D /* test-nate.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E83E32B625220275009BE980 /* 5GUIs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E83E32CA25220277009BE980 /* Build configuration list for PBXNativeTarget "5GUIs" */;
@@ -260,9 +316,12 @@
 		E83E32AF25220275009BE980 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					6B1A06FF2C356845009A4C2D = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					E83E32B625220275009BE980 = {
 						CreatedOnToolsVersion = 12.0;
 						LastSwiftMigration = 1200;
@@ -283,11 +342,21 @@
 			projectRoot = "";
 			targets = (
 				E83E32B625220275009BE980 /* 5GUIs */,
+				6B1A06FF2C356845009A4C2D /* test-nate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6B1A06FE2C356845009A4C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1A070A2C356846009A4C2D /* Preview Assets.xcassets in Resources */,
+				6B1A07072C356846009A4C2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E83E32B525220275009BE980 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +394,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6B1A06FC2C356845009A4C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1A07052C356845009A4C2D /* ContentView.swift in Sources */,
+				6B1A07032C356845009A4C2D /* test_nateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E83E32B325220275009BE980 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,7 +417,6 @@
 				E8F1C42C25260051000B517B /* InfoDict.swift in Sources */,
 				E8F1C43325260051000B517B /* Style.swift in Sources */,
 				E8F1C42F25260051000B517B /* LoadBundleImage.swift in Sources */,
-				E8F1C42B25260051000B517B /* BundleFeatureDetectionOperation.swift in Sources */,
 				E8F1C42825260051000B517B /* DetailsPopover.swift in Sources */,
 				E8F1C42725260051000B517B /* InfoPanel.swift in Sources */,
 				E8F1C41E25260051000B517B /* URLItems.swift in Sources */,
@@ -354,6 +431,7 @@
 				E8F1C42A25260051000B517B /* MainFileView.swift in Sources */,
 				E8F1C42225260051000B517B /* SpinnerView.swift in Sources */,
 				E8F1C42325260051000B517B /* PleaseDropAFileView.swift in Sources */,
+				6B1A06FB2C3566F4009A4C2D /* BundleFeatureDetectionOperation.swift in Sources */,
 				E8F1C42525260051000B517B /* SorryNotAnExecutableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +450,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6B1A070D2C356846009A4C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "test-nate/test_nate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-nate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.lengrand.test-nate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B1A070E2C356846009A4C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "test-nate/test_nate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-nate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.lengrand.test-nate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E83E32C825220277009BE980 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -499,7 +640,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"5GUIs/Preview Content\"";
-				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				DEVELOPMENT_TEAM = 9W4T5R5M9Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 5GUIs/Info.plist;
@@ -529,7 +670,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"5GUIs/Preview Content\"";
-				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				DEVELOPMENT_TEAM = 9W4T5R5M9Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 5GUIs/Info.plist;
@@ -549,6 +690,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6B1A070C2C356846009A4C2D /* Build configuration list for PBXNativeTarget "test-nate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1A070D2C356846009A4C2D /* Debug */,
+				6B1A070E2C356846009A4C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E83E32B225220275009BE980 /* Build configuration list for PBXProject "5GUIs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
